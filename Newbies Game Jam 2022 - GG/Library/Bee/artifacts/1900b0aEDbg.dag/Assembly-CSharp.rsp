@@ -374,7 +374,6 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/GameEvents.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Player_Controller.cs"
 "Assets/Scripts/SlimePossession.cs"
