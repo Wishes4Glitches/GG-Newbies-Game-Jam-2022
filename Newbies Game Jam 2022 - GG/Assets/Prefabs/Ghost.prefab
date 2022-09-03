@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8531061909997025713}
   - component: {fileID: 8531061909997025714}
   - component: {fileID: 8531061909997025715}
+  - component: {fileID: 914269312934574216}
+  - component: {fileID: 5444981007831114121}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Ghost
@@ -170,6 +172,48 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!61 &914269312934574216
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8531061909997025716}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.25}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 2.5}
+  m_EdgeRadius: 0
+--- !u!114 &5444981007831114121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8531061909997025716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafda2ef3caf22046ac5f7d33b0acf31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slime: {fileID: 642801601983363037, guid: 4f8ca8e374ec4ae4182b5c791fa773ae, type: 3}
+  player: {fileID: 6190331053494204718, guid: 8a7bc130ae028bb4e9d8f0487fd5a1e6, type: 3}
+  ghostSprite: {fileID: 8531061909997025727}
+  slimeMorph: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &8531061910713836703
 GameObject:
   m_ObjectHideFlags: 0

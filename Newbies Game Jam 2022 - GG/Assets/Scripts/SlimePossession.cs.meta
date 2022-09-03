@@ -3,7 +3,13 @@ guid: aafda2ef3caf22046ac5f7d33b0acf31
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ghost: {fileID: 8531061909997025716, guid: cfa1999d27184794d9d23fcd0ca86f8d, type: 3}
+  - slime: {fileID: 642801601983363037, guid: 4f8ca8e374ec4ae4182b5c791fa773ae, type: 3}
+  - movement: {instanceID: 0}
+  - col: {instanceID: 0}
+  - slimeCamera: {instanceID: 0}
+  - ghostCamera: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
