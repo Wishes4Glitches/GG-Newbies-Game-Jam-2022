@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            anim.SetTrigger("IsJumping");
         }
 
         if (horizontalMove != 0)
@@ -41,5 +42,6 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.deltaTime, false, jump);
         jump = false;
+        //anim.ResetTrigger("IsJumping");
     }
 }

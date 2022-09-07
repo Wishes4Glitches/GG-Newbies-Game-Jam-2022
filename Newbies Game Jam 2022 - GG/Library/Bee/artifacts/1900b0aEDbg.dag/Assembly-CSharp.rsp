@@ -382,6 +382,7 @@
 "Assets/2DPuzzleBlocks/Demo/Scripts/SceneController.cs"
 "Assets/Scripts/GhostMovement.cs"
 "Assets/Scripts/Health.cs"
+"Assets/Scripts/HealthText.cs"
 "Assets/Scripts/LightningStrike.cs"
 "Assets/Scripts/MultiTargetCamera.cs"
 "Assets/Scripts/PlayerMovement.cs"
