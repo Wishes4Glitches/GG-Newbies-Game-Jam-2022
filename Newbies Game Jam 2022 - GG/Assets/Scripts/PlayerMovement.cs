@@ -11,6 +11,13 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0.0f;
     bool jump = false;
 
+    public Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -18,6 +25,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+        }
+
+        if (horizontalMove != 0)
+        {
+            anim.SetBool("IsMoving", true);
+        }
+        else
+        {
+            anim.SetBool("IsMoving", false);
         }
     }
 
