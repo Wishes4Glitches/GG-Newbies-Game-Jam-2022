@@ -287,7 +287,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slime: {fileID: 5521278257822602198, guid: 4f8ca8e374ec4ae4182b5c791fa773ae, type: 3}
   player: {fileID: 1940705397455689593, guid: 8a7bc130ae028bb4e9d8f0487fd5a1e6, type: 3}
-  slimeModel: {fileID: 0}
+  spawnLocations: []
+  sprRend: {fileID: 1133983003923233091}
+  slimeModel: {fileID: -2413806693520163455, guid: b3145dadf57af2d4f8a9f70369b24f08, type: 3}
+  ghostModel: {fileID: -9095717837082945937, guid: b053c23f899f2e04f9e5ec6f7a4e6d42, type: 3}
 --- !u!1 &1133983004650050275
 GameObject:
   m_ObjectHideFlags: 0
